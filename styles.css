@@ -125,3 +125,22 @@ html{
   }
   
   /* Responsiveness */
+  @media screen and (max-width: 1000px){
+   
+ 
+  .grid{
+    grid-template-areas: 'future'
+    'left_side'
+    'right_side'
+    'bottom';
+  }
+
+  .sidenav {
+    padding-top: 15px;
+  }
+  
+  .sidenav a {
+    font-size: 18px;
+  }
+
+}
